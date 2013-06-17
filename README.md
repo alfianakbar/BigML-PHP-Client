@@ -1,4 +1,4 @@
-## PHP Library for BigML ##
+## PHP Library for BigML for Windows ##
 
 Note: This is an unofficially library and not (yet) supported by BigML.com
 
@@ -13,7 +13,7 @@ Note: This is an unofficially library and not (yet) supported by BigML.com
 
 ### Versions ###
 
-Version 0.1:
+Version 0.2:
 
 * Initial commit
 * Has a few very basic functions, like create_source, create_dataset, create_model, create_prediction
