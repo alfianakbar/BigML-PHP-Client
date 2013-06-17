@@ -16,5 +16,4 @@ fi
 curl "$BIGML_URL$RESOURCE?$BIGML_AUTH" \
      -X POST \
      -H "content-type: application/json" \
-     -d "{\"source\": \"$SOURCE\"}" \
-     | python -m json.tool
+     -d "{\"source\": \"$SOURCE\"}"

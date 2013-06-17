@@ -15,8 +15,8 @@ if [ -z $MODEL ]; then
 fi
 
 echo "$BIGML_URL$RESOURCE?$BIGML_AUTH" >> text.txt
+		 
 curl "$BIGML_URL$RESOURCE?$BIGML_AUTH" \
      -X POST \
      -H "content-type: application/json" \
-     -d "{\"model\": \"$MODEL\", \"input_data\": $DATA}" \
-     -k | python -m json.tool
+     -d "{\"model\": \"$MODEL\", \"input_data\": $DATA}"

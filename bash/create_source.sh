@@ -13,5 +13,4 @@ if [ ! -f $FILE ]; then
 fi
 
 curl "$BIGML_URL$RESOURCE?$BIGML_AUTH" \
-     -F file=@$FILE \
-     | python -m json.tool
+     -F file=@$FILE
